@@ -20,15 +20,15 @@ html {
   background-color: #d0dad6; }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bolder; }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold; }
 
 h3 {
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 /*HEADER*/
 header {
@@ -114,19 +114,49 @@ ul li:hover ul {
 .hvr-underline-from-left:active:before {
   right: 0; }
 
-@media screen and (max-width: 768px) {
-  section {
-    display: block; } }
+@media screen and (max-width: 1020px) {
+  .tuCasa, .deNuevo, .tuHogar {
+    visibility: hidden; } }
 
 /*------------ INDEX --------------*/
-/*SECCIONES*/
 main {
-  padding-top: 50px;
   padding-bottom: 10vh; }
+
+/*Barra de navegacion*/
+.navbar .nav-link {
+  color: black;
+  margin-right: 20px;
+  transition: 0.2s; }
+
+.btn-custom {
+  border: 1.5px solid black;
+  border-radius: 50px;
+  color: black;
+  background: none;
+  padding: 8px 20px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.5s; }
+
+.btn-custom:hover {
+  background: gray;
+  border: 1.5px solid gray;
+  color: white; }
+
+.navbar-toggler {
+  padding: .10rem .45rem;
+  border: 1px solid gray; }
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none; }
+
+.navbar-toggler i.bi-list {
+  color: gray;
+  font-size: 1.6rem; }
 
 /*video*/
 .sectionBig {
-  padding: 1em;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -143,7 +173,7 @@ main {
 /*texto sobre video*/
 .tuCasa {
   position: absolute;
-  top: 30%;
+  top: 400%;
   left: 20%;
   transform: translate(-50%, -50%);
   font-size: 50px;
@@ -152,7 +182,7 @@ main {
 
 .deNuevo {
   position: absolute;
-  top: 50%;
+  top: 550%;
   left: 60%;
   transform: translate(-50%, -50%);
   font-size: 50px;
@@ -161,7 +191,7 @@ main {
 
 .tuHogar {
   position: absolute;
-  top: 65%;
+  top: 750%;
   left: 40%;
   transform: translate(-50%, -50%);
   font-size: 50px;
@@ -169,38 +199,6 @@ main {
   text-shadow: 2px 2px 2px gray; }
 
 /*productos*/
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 5px 5px;
-  margin: 30px;
-  grid-template-areas: "section1 section1 section2 section2" "section3 section4 section2 section2"; }
-
-.section1 {
-  grid-area: section1;
-  display: flex;
-  flex-direction: column;
-  padding: 5px; }
-
-.section2 {
-  grid-area: section2;
-  display: flex;
-  flex-direction: column;
-  padding: 5px; }
-
-.section3 {
-  grid-area: section3;
-  display: flex;
-  flex-direction: column;
-  padding: 5px; }
-
-.section4 {
-  grid-area: section4;
-  display: flex;
-  flex-direction: column;
-  padding: 5px; }
-
 /*transformaciones fotos*/
 .traslateIzq:hover {
   transform: translate(10px, 5px);
