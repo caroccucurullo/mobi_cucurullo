@@ -1,0 +1,19 @@
+/*----------- SHOP ----------*/
+
+.card__button{
+    height: 2.5rem;
+    text-align: center;
+    background-color:  rgb(153, 121, 177);
+    color: white;
+    &:hover{
+      background-color: cadetblue;
+      color: black;
+      cursor: pointer;
+    }
+  }
+  
+  .card__button--rounded{
+    @extend .card__button;
+    border-radius: 15px;
+
+  }

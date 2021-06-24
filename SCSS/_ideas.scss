@@ -1,0 +1,51 @@
+
+/*----------- IDEAS ----------*/
+
+.section__blog{
+    height: 80vh;
+    padding: 2em 4em;
+    margin: 5em;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .blog{
+    border: solid 2px grey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    padding: 2em;
+    margin: 20px;
+  }
+  
+  .blog__p{
+    text-align: center;
+    max-width: 25rem;
+    padding: 10px;
+  }
+  
+  .blog__img{
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  .blog__button{
+    height: 50px;
+    background-color:  rgb(153, 121, 177);
+    color: white;
+    padding: 10px;
+    &:hover{
+      background-color: cadetblue;
+      color: black;
+      cursor: pointer;
+    }
+  }
+  
+  .blog__button--rounded{
+    @extend .blog__button;
+    border-radius: 15px;
+
+  }

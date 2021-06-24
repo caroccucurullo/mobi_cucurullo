@@ -1,0 +1,117 @@
+
+/*------------ INDEX --------------*/
+
+/*SECCIONES*/
+
+main{
+    padding-top: 50px;
+    padding-bottom: 10vh ;
+  }
+  
+  /*video*/
+  
+  .sectionBig { 
+    padding: 1em;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20xp;
+  }
+  
+  .sectionBig div {
+    padding: 30px;
+  }
+  
+  .sectionBig p {
+    padding-top: 30px;
+    padding-left: 20vh;
+    padding-right: 20vh;
+  }
+  
+  /*texto sobre video*/
+  
+  .tuCasa{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+  }
+  
+  .deNuevo{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+  }
+  
+  .tuHogar{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+  }
+  
+  /*productos*/
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px 5px;
+    margin: 30px;
+    grid-template-areas:
+      "section1 section1 section2 section2"
+      "section3 section4 section2 section2";
+  }
+  
+  .section1 { 
+    grid-area: section1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  
+  .section2 { 
+    grid-area: section2; 
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  
+  .section3 { 
+    grid-area: section3; 
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+  }
+  
+  .section4 { 
+    grid-area: section4;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+  }
+  
+  /*transformaciones fotos*/
+  
+  .traslateIzq:hover{
+      transform: translate(10px, 5px);
+      cursor: pointer;
+  }
+  
+  .traslateDer:hover{
+      transform: translate(5px, 10px);
+      cursor: pointer;
+  }
+  
