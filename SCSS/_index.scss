@@ -24,14 +24,14 @@ main {
 }
 
 .btn-custom:hover {
-  background: gray;
-  border: 1.5px solid gray;
+  background: black;
+  border: 1.5px solid black;
   color: white
 }
 
 .navbar-toggler {
   padding: .10rem .45rem;
-  border: 1px solid gray;
+  border: 1px solid black;
 }
 
 .navbar-toggler:focus {
@@ -40,7 +40,7 @@ main {
 }
 
 .navbar-toggler i.bi-list {
-  color: gray;
+  color: black;
   font-size: 1.6rem;
 }
 
