@@ -51,7 +51,6 @@ main {
   position: relative;
   display: inline-block;
   text-align: center;
-  margin-bottom: 20xp;
 }
 
 .sectionBig div {
@@ -97,6 +96,12 @@ main {
 }
 
 /*productos*/
+
+.posicionBoton {
+  position: absolute;
+  top:70%;
+  left: 70%;
+}
 
 
 /*transformaciones fotos*/

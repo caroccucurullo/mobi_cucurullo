@@ -115,7 +115,7 @@ ul li:hover ul {
   right: 0; }
 
 footer {
-  background-color: #232323;
+  background-color: #282828;
   color: white;
   padding-top: 20px; }
 
@@ -129,7 +129,8 @@ footer {
   .wave {
     padding-top: 6rem; }
   footer section {
-    margin-left: 20px; } }
+    margin-left: 10px;
+    margin-right: 10px; } }
 
 @media (max-width: 768px) {
   .text-center-xs {
@@ -178,8 +179,7 @@ main {
 .sectionBig {
   position: relative;
   display: inline-block;
-  text-align: center;
-  margin-bottom: 20xp; }
+  text-align: center; }
 
 .sectionBig div {
   padding: 30px; }
@@ -218,6 +218,11 @@ main {
   text-shadow: 2px 2px 2px gray; }
 
 /*productos*/
+.posicionBoton {
+  position: absolute;
+  top: 70%;
+  left: 70%; }
+
 /*transformaciones fotos*/
 .traslateIzq:hover {
   transform: translate(10px, 5px);
@@ -230,22 +235,20 @@ main {
 /*----------- NOSOTROS ----------*/
 .nosotros {
   border: solid 1px #d6d6d6;
-  border-radius: 5px;
-  background: #F9F9FD; }
+  border-radius: 5px; }
 
 /*----------- SHOP ----------*/
-.card__button, .card__button--rounded {
+.card__button {
+  border: 1.5px solid #282828;
   height: 2.5rem;
   text-align: center;
-  background-color: #9979b1;
-  color: white; }
-  .card__button:hover, .card__button--rounded:hover {
-    background-color: cadetblue;
-    color: black;
+  background: none;
+  color: #282828;
+  margin-left: 60%; }
+  .card__button:hover {
+    background-color: #282828;
+    color: whitesmoke;
     cursor: pointer; }
-
-.card__button--rounded {
-  border-radius: 15px; }
 
 /*----------- IDEAS ----------*/
 .section__blog {
