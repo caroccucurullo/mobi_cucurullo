@@ -102,16 +102,3 @@ main {
   top:70%;
   left: 70%;
 }
-
-
-/*transformaciones fotos*/
-
-.traslateIzq:hover {
-  transform: translate(10px, 5px);
-  cursor: pointer;
-}
-
-.traslateDer:hover {
-  transform: translate(5px, 10px);
-  cursor: pointer;
-}

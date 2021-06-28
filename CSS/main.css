@@ -8,27 +8,12 @@
 html {
   font-size: 100%; }
 
-.titulo {
-  color: #5471af;
-  font-weight: bold; }
+.fuente__titulos1 {
+  font-family: 'DM Serif Display', serif; }
 
 .parrafo_negrita {
   font-size: 1rem;
   font-weight: bold; }
-
-.fondo {
-  background-color: #d0dad6; }
-
-h1 {
-  font-size: 2rem;
-  font-weight: bolder; }
-
-h2 {
-  font-size: 1.5rem;
-  font-weight: bold; }
-
-h3 {
-  font-size: 1rem; }
 
 /*HEADER*/
 header {
@@ -223,15 +208,6 @@ main {
   top: 70%;
   left: 70%; }
 
-/*transformaciones fotos*/
-.traslateIzq:hover {
-  transform: translate(10px, 5px);
-  cursor: pointer; }
-
-.traslateDer:hover {
-  transform: translate(5px, 10px);
-  cursor: pointer; }
-
 /*----------- NOSOTROS ----------*/
 .nosotros {
   border: solid 1px #d6d6d6;
@@ -251,49 +227,7 @@ main {
     cursor: pointer; }
 
 /*----------- IDEAS ----------*/
-.section__blog {
-  height: 80vh;
-  padding: 2em 4em;
-  margin: 5em;
-  display: flex;
-  justify-content: center; }
-
-.blog {
-  border: solid 2px grey;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50vh;
-  padding: 2em;
-  margin: 20px; }
-
-.blog__p {
-  text-align: center;
-  max-width: 25rem;
-  padding: 10px; }
-
-.blog__img {
-  max-width: 100%;
-  padding: 10px; }
-
-.blog__button, .blog__button--rounded {
-  height: 50px;
-  background-color: #9979b1;
-  color: white;
-  padding: 10px; }
-  .blog__button:hover, .blog__button--rounded:hover {
-    background-color: cadetblue;
-    color: black;
-    cursor: pointer; }
-
-.blog__button--rounded {
-  border-radius: 15px; }
-
 /*---------- CONTACTO ---------*/
 form {
-  width: 30%;
-  margin: auto;
-  border: dashed 2px black;
-  padding: 10px;
-  border-radius: 20px; }
+  width: 60%;
+  margin: auto; }
