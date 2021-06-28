@@ -102,7 +102,8 @@ ul li:hover ul {
 footer {
   background-color: #282828;
   color: white;
-  padding-top: 20px; }
+  padding-top: 20px;
+  overflow: hidden; }
 
 @media screen and (max-width: 1020px) {
   .tuCasa, .deNuevo, .tuHogar {
@@ -166,14 +167,6 @@ main {
   display: inline-block;
   text-align: center; }
 
-.sectionBig div {
-  padding: 30px; }
-
-.sectionBig p {
-  padding-top: 30px;
-  padding-left: 20vh;
-  padding-right: 20vh; }
-
 /*texto sobre video*/
 .tuCasa {
   position: absolute;
@@ -227,6 +220,9 @@ main {
     cursor: pointer; }
 
 /*----------- IDEAS ----------*/
+.pointer {
+  cursor: pointer; }
+
 /*---------- CONTACTO ---------*/
 form {
   width: 60%;
