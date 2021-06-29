@@ -122,7 +122,11 @@ footer {
   .text-center-xs {
     text-align: center; }
   .text-center-xs img {
-    width: 366px; } }
+    width: 366px; }
+  section {
+    overflow: hidden; }
+  main {
+    overflow: hidden; } }
 
 /*------------ INDEX --------------*/
 main {

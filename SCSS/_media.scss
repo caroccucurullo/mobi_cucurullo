@@ -1,6 +1,8 @@
 @media screen and (max-width: 1020px){
 	.tuCasa, .deNuevo, .tuHogar {visibility:hidden
 	}
+
+
 }
 
 @media (max-width: 992px) {
@@ -15,6 +17,8 @@
 		margin-left: 10px;
 		margin-right: 10px;
 	}
+
+	
  }
  
  @media (max-width: 768px) {
@@ -24,4 +28,13 @@
 	.text-center-xs img {
 	   width: 366px;
 	}
+
+	section {
+		overflow: hidden;
+	}
+
+	main {	
+		overflow: hidden;
+	}
+
  }
